@@ -63,17 +63,18 @@ __2. Identify in the chart above which variables are categorical (C) and which v
 
 ### Loading in the Data
 
+Run the code chunk below to load the original data set into R. Then look in the Environment in the top right for the data set. Click on it to see the data set in a new tab.
+
 ```{r data, include = TRUE}
 
 # We assigned our data set to be called "IPEDS"
 
 IPEDS <- read_csv("data/IPEDS_Data_2018.csv")
-
-head(IPEDS) %>% 
-  kable()
 ```
 
 For our analysis, we will look at the retention rates for *only* the 4-year institutions. In the code below I'm filtering the dataset down to ony include 4-year institutions (eliminating 2-year institutions) and calling this smaller data set (called a subset), `IPEDS_fouryear`. This is the data set you will use for the rest of the lab.
+
+Run the code chunk below to create the subset. You should now see the new subset in your Environment to the right.
 
 ```{r data-filter}
 
@@ -184,6 +185,8 @@ Let's examine how the presence of outliers affect the values of center and sprea
 
 
 To show the effect of outliers on the measures of center and spread, in the code below, I increase the smallest values of retention rate in the data by 30%. (AKA observational units with a 0% retention rate in the original data set now have a 30% retention rate in the adjusted data set called `IPEDS_fouryear_adj`).
+
+Run the code chunk below to create an adjusted retention rate data set. You should now see the adjusted retention rate data set in your Environment to the right.
 
 ```{r data-adjust}
 IPEDS_fouryear_adj <- IPEDS_fouryear %>% 
