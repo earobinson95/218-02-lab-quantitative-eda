@@ -1,0 +1,23 @@
+
+# Feedback Guide for Lab 2
+
+# Q5
+Nice job identifing the standard deviation from the code output above! 
+The standard deviation for this data set tells us "on average, the retention rate for a 4-year institution is 15.14% away from the mean retention rate."
+
+# Q7
+Recall we are interested in the quantitative variable, retention rate. What name does this variable have in the data set?
+
+# Q8
+How would we know if the data set is skewed left or right?
+
+# Q9
+A box plot shows outliers with dots outside the whiskers; are there any outliers on our plot? where are they located?
+
+# Q14
+Yes! The median is a robust measure of center, since it doesn't move much if outliers are included in the data. 
+The mean, however, is pulled in the direction of the outliers. 
+
+# Q15
+You are on the right track! The IQR depends on percentiles, the 25% and 75%, which are similar to the median. These percentiles don't move much if outliers
+are included in the data. The standard deviation, however, depends on the mean as its measure of center, so it is definitely not robust!
