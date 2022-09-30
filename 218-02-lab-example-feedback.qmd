@@ -1,5 +1,7 @@
-
-# Feedback Guide for Lab 2
+---
+title: "218 Lab 2 Example Feedback"
+format: html
+---
 
 # Q5
 Nice job identifing the standard deviation from the code output above! 
