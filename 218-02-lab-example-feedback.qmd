@@ -3,6 +3,8 @@ title: "218 Lab 2 Example Feedback"
 format: html
 ---
 
+[Feedback Link](https://earobinson95.github.io/218-02-lab-quantitative-eda/218-02-lab-example-feedback.html)
+
 # Q5
 Nice job identifing the standard deviation from the code output above! 
 The standard deviation for this data set tells us "on average, the retention rate for a 4-year institution is 15.14% away from the mean retention rate."
