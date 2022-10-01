@@ -137,7 +137,7 @@ The final line of code creates nicer axis labels. The default axis labels use th
 
 7. Fill in the code below with (1) the name of the variable you want to plot, and (2) a nice x-axis label to use. *You are replacing the blank spaces in the code chunk.*
 
-```{r boxplot, eval = F}
+```{r boxplot}
 ggplot(data = IPEDS, 
        mapping = aes(x = ____)
        ) +   
@@ -164,7 +164,7 @@ The code for a histogram is **very** similar to a boxplot. Really, all we need t
 
 Fill in the code below with (1) the name of the variable you want to plot, and (2) a nice x-axis label to use. *You are replacing the blank spaces in the code chunk.*
 
-```{r histogram, eval = F}
+```{r histogram}
 ggplot(data = IPEDS, 
        mapping = aes(x = ____)
        ) +   
@@ -199,8 +199,8 @@ IPEDS_fouryear_adj <- IPEDS_fouryear %>%
 
 Fill in the code below with the name of the variable you want to obtain summaries for. Note we are now using the adjusted retention rates data set. *You are replacing the blank spaces in the code chunk.*
 
-```{r new-summaries, eval = F}
-favstats(~ ____, data = IPEDS_fouryear_adj) 
+```{r new-summaries}
+favstats(~ ______, data = IPEDS_fouryear_adj) 
 ```
 
 11. **Report the two measures of center for these adjusted retention rates.**

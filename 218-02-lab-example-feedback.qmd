@@ -5,23 +5,66 @@ format: html
 
 [Feedback Link](https://earobinson95.github.io/218-02-lab-quantitative-eda/218-02-lab-example-feedback.html)
 
-# Q5
+# Completion (for ISA's)
+
+## Q5
 Nice job identifing the standard deviation from the code output above! 
 The standard deviation for this data set tells us "on average, the retention rate for a 4-year institution is 15.14% away from the mean retention rate."
 
-# Q7
+## Q7
 Recall we are interested in the quantitative variable, retention rate. What name does this variable have in the data set?
 
-# Q8
+## Q8
 How would we know if the data set is skewed left or right?
 
-# Q9
+## Q9
 A box plot shows outliers with dots outside the whiskers; are there any outliers on our plot? where are they located?
 
-# Q14
+## Q14
 Yes! The median is a robust measure of center, since it doesn't move much if outliers are included in the data. 
+
 The mean, however, is pulled in the direction of the outliers. 
 
-# Q15
-You are on the right track! The IQR depends on percentiles, the 25% and 75%, which are similar to the median. These percentiles don't move much if outliers
-are included in the data. The standard deviation, however, depends on the mean as its measure of center, so it is definitely not robust!
+## Q15
+You are on the right track! The IQR depends on percentiles, the 25% and 75%, which are similar to the median. These percentiles don't move much if outliers are included in the data. 
+
+The standard deviation, however, depends on the mean as its measure of center, so it is definitely not robust!
+
+# Canvas Quiz (for instructor)
+
+## 2
+
+Be specific about institutions - institutions from where?
+
+## 3 (0.1 points each)
+
+Note that size is binned in the data description.
+
+UnitID is technically categorical since it is associated with each institution. This is tricky because RStudio reads this in as a value/numeric.
+
+
+## 5
+
+Make sure to attach the interpretation of intention rates to the scenario (context of the study) - what was the third quartile for this data set? Recall the third quartile tells us 75% of our data falls at or below that value.
+
+## 9
+$\bar{x} = 73.8525$
+
+sd = 15.14323
+
+<br>
+
+median = 75
+
+IQR = 17
+
+## 10
+$\bar{x} = 74.0011$
+
+sd = 14.55318	
+
+<br>
+
+median = 75
+
+IQR = 17
