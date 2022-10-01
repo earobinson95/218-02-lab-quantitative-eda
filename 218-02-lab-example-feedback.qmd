@@ -36,6 +36,8 @@ Review feedback as a group in lab next week.
 
 ## 2
 
+Recall the observational units are the rows in the data set - how would you describe a row for this data and scenario? The variables are the columns in the data set, not the observational units.
+
 Be specific about institutions - institutions from where?
 
 ## 3 (0.1 points each)
