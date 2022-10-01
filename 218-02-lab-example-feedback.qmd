@@ -32,6 +32,8 @@ The standard deviation, however, depends on the mean as its measure of center, s
 
 # Canvas Quiz (for instructor)
 
+Review feedback as a group in lab next week.
+
 ## 2
 
 Be specific about institutions - institutions from where?
